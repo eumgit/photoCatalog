@@ -13,6 +13,13 @@
 		ACD5DB5B2225024000A67D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DB592225024000A67D23 /* Main.storyboard */; };
 		ACD5DB5D2225024100A67D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DB5C2225024100A67D23 /* Assets.xcassets */; };
 		ACD5DB602225024100A67D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DB5E2225024100A67D23 /* LaunchScreen.storyboard */; };
+		ACD5DBC022262D1A00A67D23 /* fireworks007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DBB922262D1900A67D23 /* fireworks007.jpg */; };
+		ACD5DBC122262D1A00A67D23 /* fireworks006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DBBA22262D1900A67D23 /* fireworks006.jpg */; };
+		ACD5DBC222262D1A00A67D23 /* fireworks002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DBBB22262D1900A67D23 /* fireworks002.jpg */; };
+		ACD5DBC322262D1A00A67D23 /* fireworks005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DBBC22262D1900A67D23 /* fireworks005.jpg */; };
+		ACD5DBC422262D1A00A67D23 /* fireworks003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DBBD22262D1900A67D23 /* fireworks003.jpg */; };
+		ACD5DBC522262D1A00A67D23 /* fireworks004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DBBE22262D1900A67D23 /* fireworks004.jpg */; };
+		ACD5DBC622262D1A00A67D23 /* fireworks001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACD5DBBF22262D1A00A67D23 /* fireworks001.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		ACD5DB5C2225024100A67D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD5DB5F2225024100A67D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD5DB612225024100A67D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD5DBB922262D1900A67D23 /* fireworks007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireworks007.jpg; sourceTree = "<group>"; };
+		ACD5DBBA22262D1900A67D23 /* fireworks006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireworks006.jpg; sourceTree = "<group>"; };
+		ACD5DBBB22262D1900A67D23 /* fireworks002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireworks002.jpg; sourceTree = "<group>"; };
+		ACD5DBBC22262D1900A67D23 /* fireworks005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireworks005.jpg; sourceTree = "<group>"; };
+		ACD5DBBD22262D1900A67D23 /* fireworks003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireworks003.jpg; sourceTree = "<group>"; };
+		ACD5DBBE22262D1900A67D23 /* fireworks004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireworks004.jpg; sourceTree = "<group>"; };
+		ACD5DBBF22262D1A00A67D23 /* fireworks001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireworks001.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 			isa = PBXGroup;
 			children = (
 				ACD5DB532225024000A67D23 /* AppDelegate.swift */,
+				ACD5DBBF22262D1A00A67D23 /* fireworks001.jpg */,
+				ACD5DBBB22262D1900A67D23 /* fireworks002.jpg */,
+				ACD5DBBD22262D1900A67D23 /* fireworks003.jpg */,
+				ACD5DBBE22262D1900A67D23 /* fireworks004.jpg */,
+				ACD5DBBC22262D1900A67D23 /* fireworks005.jpg */,
+				ACD5DBBA22262D1900A67D23 /* fireworks006.jpg */,
+				ACD5DBB922262D1900A67D23 /* fireworks007.jpg */,
 				ACD5DB552225024000A67D23 /* MasterViewController.swift */,
 				ACD5DB572225024000A67D23 /* DetailViewController.swift */,
 				ACD5DB592225024000A67D23 /* Main.storyboard */,
@@ -126,7 +147,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD5DB602225024100A67D23 /* LaunchScreen.storyboard in Resources */,
+				ACD5DBC222262D1A00A67D23 /* fireworks002.jpg in Resources */,
+				ACD5DBC622262D1A00A67D23 /* fireworks001.jpg in Resources */,
 				ACD5DB5D2225024100A67D23 /* Assets.xcassets in Resources */,
+				ACD5DBC322262D1A00A67D23 /* fireworks005.jpg in Resources */,
+				ACD5DBC522262D1A00A67D23 /* fireworks004.jpg in Resources */,
+				ACD5DBC122262D1A00A67D23 /* fireworks006.jpg in Resources */,
+				ACD5DBC022262D1A00A67D23 /* fireworks007.jpg in Resources */,
+				ACD5DBC422262D1A00A67D23 /* fireworks003.jpg in Resources */,
 				ACD5DB5B2225024000A67D23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

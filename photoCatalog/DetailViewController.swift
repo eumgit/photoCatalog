@@ -10,14 +10,16 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+    // @IBOutlet weak var detailDescriptionLabel: UILabel!
 
-
+    @IBOutlet weak var photoImageView: UIImageView!
+    
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
+        if let detail = self.detailItem {
+            if let imageView = self.photoImageView {
+                let fileName = "\(detail).jpg"
+                imageView.image = UIImage(named: fileName)
             }
         }
     }
@@ -25,13 +27,14 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        configureView()
+            self.configureView()
+            self.title = "불꽃놀이 사진"
     }
 
-    var detailItem: NSDate? {
+    var detailItem: AnyObject? {
         didSet {
             // Update the view.
-            configureView()
+            self.configureView()
         }
     }
 
